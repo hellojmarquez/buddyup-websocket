@@ -60,7 +60,7 @@ const PORT = 9002; // Cambia el número de puerto si es necesario
 server.listen(PORT, () => {
 	console.log(`Servidor WebSocket escuchando en http://localhost:${PORT}`);
 });
-app.get('/hola', (reà, res) => {
+app.get('/hol', (reà, res) => {
 	console.log('holllll');
 	res.send('<h1>hola</h1>');
 });
