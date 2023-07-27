@@ -57,6 +57,6 @@ io.on('connection', socket => {
 });
 
 const PORT = 5173; // Cambia el número de puerto si es necesario
-server.listen(port, () => {
+server.listen(PORT, () => {
 	console.log(`Servidor WebSocket escuchando en http://localhost:${PORT}`);
 });
